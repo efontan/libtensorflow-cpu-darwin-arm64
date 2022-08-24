@@ -75,5 +75,7 @@ git checkout v${VERSION_NUMBER} #example v2.9.0
 bazel build --config=macos_arm64 --config=noaws --config=nogcp --config=nohdfs --config=nonccl //tensorflow/tools/lib_package:libtensorflow
 ```
 - Rename and copy the tar file:
+```
 cp bazel-bin/tensorflow/tools/lib_package/libtensorflow.tar.gz ./libtensorflow-cpu-darwin-arm64-2.9.0.tar.gz
-  
+```
+
