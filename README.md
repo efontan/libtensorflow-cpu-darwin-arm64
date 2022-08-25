@@ -4,7 +4,7 @@ Tensorflow C binaries compiled for Mac M1 computers (arm64 chip).
 The libraries were compiled with all flags disabled:
 
 ```bash
-MACOSX_DEPLOYMENT_TARGET=12.0 ./configure
+./configure
 
 Do you wish to build TensorFlow with ROCm support? [y/N]: N
 No ROCm support will be enabled for TensorFlow.
